@@ -13,8 +13,8 @@ body {
 
 .bottom-container{
   background-color: #66BFBF;
-  margin-top: 100px;
-  height: 140px;
+  margin-top: 130px;
+  padding: 50px 0 20px;
 }
 
 .bottom-cloud {
@@ -23,19 +23,27 @@ body {
 
 .btn{
   border-radius: 5px;
-  background-image: linear-gradient(#66BFBF, #11999E);
+  background-color: #11999E;
+  background-image: linear-gradient(#11ccd4, #11999E);
   color: white;
   padding: 8px 20px;
   position: relative;
   top: 50px;
 }
 
+.btn:hover{
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.contact-me{
+  width: 50%;
+  margin: auto;
+}
+
 .footer-link{
   color: #11999E;
   margin: 0 20px;
   text-decoration: none;
-  position: relative;
-  top: 25%;
 }
 
 h1 {
@@ -64,23 +72,26 @@ h3 {
 }
 
 hr{
-  border: hidden;
-  border-top: dotted;
-  border-width: 6px ;
-  color: #ced8d8;
+  border: none;
+  border-top: dotted #dde7e7 6px;
   margin: 70px auto;
-  width: 50px;
+  width: 4%;
+}
+
+.into{
+
+  margin: auto;
+  width: 70%;
 }
 
 p{
   color: #40514E;
   font-weight: bold;
+  line-height: 2;
 }
 
 .p-copyright{
-  position: relative;
   font-size: small;
-  top: 40%;
   color: #EAF6F6;
 }
 
@@ -110,7 +121,6 @@ p{
   text-align: left;
   margin: 100px auto auto;
   width: 50%;
-  line-height: 2;
 }
 
 .top-container {
