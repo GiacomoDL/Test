@@ -3,6 +3,7 @@ a{
   font-family: "Rubik", sans-serif;
   font-weight: bold;
   text-decoration: none;
+  margin: 0 20px;
 }
 
 body {
@@ -40,10 +41,8 @@ body {
   margin: auto;
 }
 
-.footer-link{
-  color: #11999E;
-  margin: 0 20px;
-  text-decoration: none;
+.footer-link:hover{
+  color: #eaf6f6;
 }
 
 h1 {
@@ -93,6 +92,7 @@ p{
 .p-copyright{
   font-size: small;
   color: #EAF6F6;
+  padding-top: 20px;
 }
 
 .profile{
