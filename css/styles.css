@@ -1,7 +1,41 @@
+a{
+  color: #11999E;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 body {
   font-family: "Cardo", serif;
-  background-color: #e4f9f5;
   text-align: center;
+  margin: 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 100px;
+  height: 140px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.btn{
+  border-radius: 5px;
+  background-image: linear-gradient(#66BFBF, #11999E);
+  color: white;
+  padding: 8px 20px;
+  position: relative;
+  top: 50px;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 0 20px;
+  text-decoration: none;
+  position: relative;
+  top: 25%;
 }
 
 h1 {
@@ -24,16 +58,63 @@ h3 {
   color: #11999E;
 }
 
-a{
-    color: #11999E;
+.h3-get-in-touch{
+  margin-bottom: 2.8rem;
 }
 
-.bottom-cloud {
-  position: absolute;
+hr{
+  border: hidden;
+  border-top: dotted;
+  border-width: 6px ;
+  color: #ced8d8;
+  margin: 70px auto;
+  width: 50px;
+}
+
+p{
+  color: #40514E;
+  font-weight: bold;
+}
+
+.p-copyright{
+  position: relative;
+  font-size: small;
+  top: 40%;
+  color: #EAF6F6;
+}
+
+.profile{
+  width: 50%;
+  margin: 50px auto;
+}
+
+
+.skill-image-profile{
+  width: 25%;
+}
+
+.skill-image-computer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-pepper{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row{
+  text-align: left;
+  margin: 100px auto auto;
+  width: 50%;
+  line-height: 2;
 }
 
 .top-container {
-  margin-top: 60px;
+  background-color: #e4f9f5;
+  padding-top: 60px;
 }
 
 .top-cloud {
